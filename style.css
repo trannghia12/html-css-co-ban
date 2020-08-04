@@ -201,6 +201,9 @@
 .hieu-khoa{
 	margin-left: 5px;
 }
+.hieu-khoa ul{
+	list-style: none;
+}
 .hieu-khoa h2{
 	font-family: arial;
 	font-size: 18px;
@@ -413,26 +416,32 @@
 .sinh-vien .new-1 li a:hover{
 	color: red;
 }
-.name a{
+.doi-tac {
+	width: 100%;
+	height: 250px;
+	margin: auto;
+	background-color: #f8f0f0ed;
+}
+.doi-tac .name a{
 	display: block;
-	margin-top: 20px;
-	margin-bottom: -45px;
+	width: 1170px;
 	font-weight: bold;
 	font-size: 25px;
 	font-family: arial;
-	color: #0000ffa6;
+	color: #001373;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
+	margin: auto;
 }
 .icon-name {
-	width: 100%;
-	height: 336px;
+	width: 1170px;
+	height: 200px;
 	margin-top: 10px;
-	background-color: #f8f0f0ed;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	margin: auto;
 }
 .icon-name .icon-name-1 img{
 	background-position: center;
@@ -451,7 +460,6 @@
 	height: 56px;
 	margin: auto;
 	display: flex;
-	/*justify-content: center;*/
 	align-items: center;
 }
 .intro-1 p{
