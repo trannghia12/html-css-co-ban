@@ -179,6 +179,9 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.tieu-de ul{
+	list-style: none;
+}
 .tieu-de li a{
 	display: block;
 	font-size: 18px;
@@ -216,23 +219,45 @@
 .hieu-khoa a:hover{
 	color: red;
 }
-.khoi-banner2 {
-	margin-top: 10px;
+.sec-1 {
 	width: 100%;
+	height: 250px;
 	background-color: #80808021;
+	display: flex;
+	align-items: center;
+}
+.khoi-banner2 {
+	width: 100%;
+	/*background-color: #80808021;*/
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	width: 1170px;
+    margin: auto;
+    /*margin-top: 20px;*/
 }
 .khoi-banner2 img{
 	width: 374px;
 	height: 177.65px;
 }
+.daotao {
+	width: 1170px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+.sec-2 {
+	width: 100%;
+	height: 250px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
 .dao-tao {
 	width: 100%;
 	height: 336px;
-	margin-top: 10px;
-	background-color: white;
+	/*margin-top: 10px;*/
+	/*background-color: white;*/
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -269,6 +294,7 @@
 }
 .new-1 img:hover{
 	transform: scale(1.2);
+	opacity: 0.5;
 }
 .new-2 li a{
 	display: block;
@@ -283,6 +309,14 @@
 .new-2 li a:hover{
 	color: red;
 }
+.sec-3 {
+	width: 100%;
+	background-color: #80808021;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
 .head2 a{
 	display: block;
 	margin-top: 10px;
@@ -295,34 +329,67 @@
 	text-transform: uppercase;
 }
 .doingoai .dao-tao {
-	width: 100%;
-	height: 336px;
-	margin-top: 10px;
-	background-color: #80808021;
+	width: 1170px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+}
+.sec-4 {
+	width: 100%;
+	height: 350px;
+	background-color: white;
+}
+.sinhvien {
+	width: 1170px;
+	height: 100%;
+	margin: auto;
+}
+.head3 {
+	display: block;
+}
+.head3 a{
+	display: block;
+	width: 142px;
+	height: 30px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: arial;
+	color: #0000ffa6;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 .sinh-vien {
 	width: 100%;
-	height: 336px;
+	height: 245px;
 	margin-top: 10px;
-	background-color: white;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 .sinh-vien .new1 {
 	width: 281px;
-	height: 240px;
+	height: 100%;
 	margin-left: 10px;
-	position: relative;
 	margin-right: 30px;
+}
+.sinh-vien .new-1 ul{
+	display: block;
+	margin-left: 30px;
+	float: left;
+}
+.sinh-vien .new-1 li a{
+	display: block;
+	width: 260px;
+	margin-right: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-family: arial;
 }
 .sinh-vien .new-1 img{
 	background-position: center;
     background-size: cover;
-    width: 90%;
+    width: 280px;
     margin-top: 10px;
 }
 .sinh-vien .new-1 p{
@@ -334,17 +401,6 @@
 }
 .sinh-vien .new-1 img:hover{
 	transform: scale(1.2);
-}
-.head3 a{
-	display: block;
-	margin-top: 10px;
-	margin-bottom: -45px;
-	font-weight: bold;
-	font-size: 25px;
-	font-family: arial;
-	color: #0000ffa6;
-	text-decoration: none;
-	text-transform: uppercase;
 }
 .sinh-vien .new-1 li a{
 	display: block;
@@ -359,7 +415,7 @@
 }
 .name a{
 	display: block;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: -45px;
 	font-weight: bold;
 	font-size: 25px;
@@ -385,36 +441,45 @@
     margin-top: 10px;
 }
 .intro {
-	background-color: #007bff;
-	height: 56px;
+	background-color: #004eaf;
+	height: 60px;
 	width: 100%;
+	margin: auto;
+}
+.intro-1-1 {
+	width: 1170px;
+	height: 56px;
+	margin: auto;
 	display: flex;
-	flex-direction: row;
+	/*justify-content: center;*/
 	align-items: center;
 }
-.intro i{
-	margin-left: 50px;
-	font-size: 25px;
-	color: white;
-}
-.intro-1 {
-	margin-left: 650px;
-}
 .intro-1 p{
-	display: inline-block;
-	font-size: 25px;
+	display: inline;
+	float: left;
+	font-size: 23px;
 	text-transform: uppercase;
 	font-family: arial;
+	color: white;
 }
-.intro-2 {
-	margin-left: 230px;
+.intro-2 {	
+	width: 398px;
+	margin-left: 180px;
+}
+.intro-2 i{
+	font-size: 23px;
+	color: white;
+	display: block;
+	float: right;
+	margin-left: 20px;
 }
 .final {
-	background-color: #5c6fcd;
+	background-color: #001373;
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	padding-top: 20px;
 }
 .khoi3-1 {
 	line-height: 18px;
@@ -422,8 +487,9 @@
 	font-weight: bold;
 	color: white;
 	font-family: arial;
+	margin-bottom: 20px;
 }
 .khoi3-1 p{
-	border-bottom: 1px black dotted;
+	border-bottom: 1px white dotted;
 	margin-bottom: 5px;
 }
