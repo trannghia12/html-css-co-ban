@@ -6,48 +6,52 @@
 	/*background-attachment: fixed;*/
 	/*background-size: cover;*/
 }
-.khoi-logo {
+header {
+	width: 100%;
+	background-color: white;
 	border-bottom: 2px black solid;
 	border-top: 10px #2f2f9a solid;
-	display: flex;
 }
-.khoi-1{
+.block-logo {
+	height: 140px;
+	width: 1170px;
+	margin: auto;
+}
+.block-1{
 	display: block;
-	margin-left: 186px;
 }
-.khoi-1 a{
+.block-1 a{
 	width: 535px;
 	height: 89px;
 	
 }
-.khoi-2{
+.block-2{
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	float: right;
+	padding-top: 10px;
    
 }
-.khoi-2 .tim-kiem{
-	padding-top: 5px;
+.block-2 .search-box{
+	display: block;
 }
-.khoi-2 .tim-kiem i{
-	border: 1px black solid;
-	margin-left: 127px;
-	margin-top: 31px
+.block-2 .search-box i{
 }
-.khoi-2 .tim-kiem .nut{
+.block-2 .search-box .button-search{
 	font-size: 15px;
 	font-family: arial;
 	border: 1px black solid;
 	background-color: #b5b5dd;
 }
-.khoi-2 .tim-kiem .input1{
+.block-2 .search-box .input-search{
 	font-size: 15px;
 	font-family: arial;
-	border-left: : 1px black solid;
 }
-.khoi-2 .login{
-	margin-top: 35px;
-    margin-left: 266px;
+.block-2 .login{
+	margin-left: 20px;
 }
-.khoi-2 .login a{
+.block-2 .login a{
 	display: block;
 	margin-right: 15px;
 	float: left;
@@ -56,10 +60,11 @@
 	font-family: arial;
 }
 /**/
-.thanh-tac-vu{
+/**/
+.menu-list{
 	background-color: #2f2f9a;
 }
-.thanh-tac-vu ul{
+.menu-list ul{
 	list-style-type: none;
 	width: 1170px;
 	height: 47px;
@@ -73,10 +78,10 @@
 	flex-wrap: nowrap;
 
 }
-.thanh-tac-vu li{
+.menu-list li{
 	display: inline-block;
 }
-.thanh-tac-vu a{
+.menu-list a{
 	display: block;
 	text-transform: uppercase;	
 	font-size: 15px;
@@ -85,31 +90,33 @@
 	text-decoration: none;
 
 }
-.thanh-tac-vu i{
+.menu-list i{
 	font-size: 16px;
 }
-.thanh-tac-vu li:hover{
+.menu-list li:hover{
 	background-color: blue;
 	transition: 1s;
 }
-.banner1 img{
+.banner-img img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 }
-.banner1:hover img{
+.banner-img:hover img{
 	opacity: 0.6;
 	transition: 1s;
 }
-.khoi-chinh{
+/*
+*/
+.main-container{
 	background-color: white;
 	width: 1170px;
 	height: 475px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.khoi-icon {
+.block-icon {
 	width: 1170px;
 	height: 131px;
 	margin-left: auto;
@@ -117,7 +124,7 @@
 	border-bottom: 1px grey solid;
 	text-align: center;
 }
-.khoi-icon img{
+.block-icon img{
 	width: 25px;
 	height: 25px;
 	display: block;
@@ -125,7 +132,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.khoi-icon a{
+.block-icon a{
 	display: inline-block;
 	width: 146.25px;
 	height: 91px;
@@ -136,41 +143,41 @@
 	text-align: center;
 	margin-top: 20px;
 }
-.bang-thong-bao {
+.list-new {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
-.tin1 {
+.block-news-1 {
 	width: 498px;
 	height: 374px;
 	float: left;
 }
-.tin1 img{
+.block-news-1 img{
 	width: 498px;
 	height: 280px;
 }
-.tin1 a{
+.block-news-1 a{
 	font-size: 15px;
 	font-family: arial;
 	color: black;
 	text-decoration: none;
 	font-weight: bolder;
 }
-.tin1 p{
+.block-news-1 p{
 	font-size: 14px;
 	font-family: arial;
 	color: black;
 	text-decoration: none;
 }
-.tin1 a:hover{
+.block-news-1 a:hover{
 	color: red;
 }
-.tieu-de {
+.block-news-2 {
 	width: 373px;
 	height: 42px;
 }
-.tieu-de a{
+.block-news-2 a{
 	margin-left: 55px;
 	margin-bottom: 20px;
 	font-size: 25px;
@@ -179,10 +186,10 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.tieu-de ul{
+.block-news-2 ul{
 	list-style: none;
 }
-.tieu-de li a{
+.block-news-2 li a{
 	display: block;
 	font-size: 18px;
 	font-family: arial;
@@ -195,22 +202,22 @@
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
-.tieu-de a:hover{
+.block-news-2 a:hover{
 	color: red;
 }
-.hieu-khoa{
+.block-news-list{
 	margin-left: 5px;
 }
-.hieu-khoa ul{
+.block-news-list ul{
 	list-style: none;
 }
-.hieu-khoa h2{
+.block-news-list h2{
 	font-family: arial;
 	font-size: 18px;
 	text-transform: uppercase;
 	color: blue;
 }
-.hieu-khoa a{
+.block-news-list a{
 	display: block;
 	font-family: arial;
 	font-size: 18px;
@@ -219,53 +226,49 @@
 	text-decoration: none;
 	border-bottom: 1px black dotted;
 }
-.hieu-khoa a:hover{
+.block-news-list a:hover{
 	color: red;
 }
-.sec-1 {
+.container-info-img {
 	width: 100%;
 	height: 250px;
 	background-color: #80808021;
 	display: flex;
 	align-items: center;
 }
-.khoi-banner2 {
+.banner-info {
 	width: 100%;
-	/*background-color: #80808021;*/
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 1170px;
     margin: auto;
-    /*margin-top: 20px;*/
 }
-.khoi-banner2 img{
+.banner-info img{
 	width: 374px;
 	height: 177.65px;
 }
-.daotao {
-	width: 1170px;
-	margin: auto;
-	margin-top: 20px;
-	background-color: white;
-}
-.sec-2 {
+.container-edu {
 	width: 100%;
 	height: 250px;
 	background-color: white;
 	display: flex;
 	align-items: center;
 }
-.dao-tao {
+.edu {
+	width: 1170px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+}
+.block-edu {
 	width: 100%;
 	height: 336px;
-	/*margin-top: 10px;*/
-	/*background-color: white;*/
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-.head1 a{
+.header-edu a{
 	display: block;
 	margin-top: 10px;
 	margin-bottom: -45px;
@@ -276,30 +279,31 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.new-1 {
+.block-new {
 	width: 281px;
 	height: 240px;
 	margin-left: 10px;
 	position: relative;
 }
-.new-1 img{
+.block-new img{
 	background-position: center;
     background-size: cover;
     width: 90%;
     margin-top: 10px;
+    height: 137px;
 }
-.new-1 p{
+.block-new p{
 	display: block;
 	font-size: 18px;
 	font-family: arial;
 	color: black;
 	text-decoration: none;	
 }
-.new-1 img:hover{
+.block-new img:hover{
 	transform: scale(1.2);
 	opacity: 0.5;
 }
-.new-2 li a{
+.block-new-list li a{
 	display: block;
 	font-family: arial;
 	font-size: 20px;
@@ -309,10 +313,10 @@
 	margin-bottom: 15px;
 	border-bottom: 1px black dotted;
 }
-.new-2 li a:hover{
+.block-new-list li a:hover{
 	color: red;
 }
-.sec-3 {
+.container-foreign {
 	width: 100%;
 	background-color: #80808021;
 	display: flex;
@@ -320,7 +324,7 @@
 	justify-content: center;
 	margin-top: 100px;
 }
-.head2 a{
+.header-foreign a{
 	display: block;
 	margin-top: 10px;
 	margin-bottom: -45px;
@@ -331,26 +335,26 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.doingoai .dao-tao {
+.container-foreign .block-edu {
 	width: 1170px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.sec-4 {
+.container-stu {
 	width: 100%;
 	height: 350px;
 	background-color: white;
 }
-.sinhvien {
+.stu {
 	width: 1170px;
 	height: 100%;
 	margin: auto;
 }
-.head3 {
+.header-stu {
 	display: block;
 }
-.head3 a{
+.header-stu a{
 	display: block;
 	width: 142px;
 	height: 30px;
@@ -362,7 +366,7 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.sinh-vien {
+.block-stu {
 	width: 100%;
 	height: 245px;
 	margin-top: 10px;
@@ -370,18 +374,18 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.sinh-vien .new1 {
+.block-stu .new1 {
 	width: 281px;
 	height: 100%;
 	margin-left: 10px;
 	margin-right: 30px;
 }
-.sinh-vien .new-1 ul{
+.block-stu .new-1 ul{
 	display: block;
 	margin-left: 30px;
 	float: left;
 }
-.sinh-vien .new-1 li a{
+.block-stu .new-1 li a{
 	display: block;
 	width: 260px;
 	margin-right: 10px;
@@ -389,23 +393,20 @@
 	font-size: 14px;
 	font-family: arial;
 }
-.sinh-vien .new-1 img{
+.block-stu .new-1 img{
 	background-position: center;
     background-size: cover;
     width: 280px;
     margin-top: 10px;
 }
-.sinh-vien .new-1 p{
+.block-stu .new-1 p{
 	display: block;
 	font-size: 18px;
 	font-family: arial;
 	color: black;
 	text-decoration: none;	
 }
-.sinh-vien .new-1 img:hover{
-	transform: scale(1.2);
-}
-.sinh-vien .new-1 li a{
+.block-stu .new-1 li a{
 	display: block;
 	font-size: 18px;
 	font-family: arial;
@@ -413,16 +414,19 @@
 	text-decoration: none;
 	margin-right: 50px;
 }
-.sinh-vien .new-1 li a:hover{
+.block-stu .new-1 img:hover{
+	transform: scale(1.2);
+}
+.block-stu .new-1 li a:hover{
 	color: red;
 }
-.doi-tac {
+.container-partner {
 	width: 100%;
 	height: 250px;
 	margin: auto;
 	background-color: #f8f0f0ed;
 }
-.doi-tac .name a{
+.container-partner .header-partner a{
 	display: block;
 	width: 1170px;
 	font-weight: bold;
@@ -434,7 +438,7 @@
 	text-align: center;
 	margin: auto;
 }
-.icon-name {
+.icon-partner {
 	width: 1170px;
 	height: 200px;
 	margin-top: 10px;
@@ -443,19 +447,19 @@
 	align-items: center;
 	margin: auto;
 }
-.icon-name .icon-name-1 img{
+.icon-partner .icon-partner-1 img{
 	background-position: center;
     background-size: cover;
     width: 90%;
     margin-top: 10px;
 }
-.intro {
+.block-intro {
 	background-color: #004eaf;
 	height: 60px;
 	width: 100%;
 	margin: auto;
 }
-.intro-1-1 {
+.intro {
 	width: 1170px;
 	height: 56px;
 	margin: auto;
@@ -481,7 +485,7 @@
 	float: right;
 	margin-left: 20px;
 }
-.final {
+.block-end {
 	background-color: #001373;
 	width: 100%;
 	display: flex;
@@ -489,7 +493,7 @@
 	align-items: center;
 	padding-top: 20px;
 }
-.khoi3-1 {
+.content {
 	line-height: 18px;
 	font-size: 13px;
 	font-weight: bold;
@@ -497,7 +501,7 @@
 	font-family: arial;
 	margin-bottom: 20px;
 }
-.khoi3-1 p{
+.content p{
 	border-bottom: 1px white dotted;
 	margin-bottom: 5px;
 }
